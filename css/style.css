@@ -323,6 +323,122 @@ sup {
   border-color: white;
 }
 
+/* NOTE: CONTACT SECTION */
+
+.contact-section__header {
+  width: 100px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+.box__underline--bottom {
+  margin-bottom: 40px;
+}
+.contact-section__right-box {
+  float: right;
+  width: 350px;
+}
+.right-box__red-chair {
+  width: 264px;
+  height: 210px;
+  background-size: cover;
+  background-image: url("../images/red_chair.png");
+  margin-bottom: 20px;
+}
+.contact-section__form input[type="text"] {
+  float: left;
+  width: 700px;
+  height: 60px;
+  border: 1px solid rgb(37, 199, 172);
+  font-size: 28px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  font-family: ralewayregular;
+}
+.contact-section__form textarea {
+  float: left;
+  width: 700px;
+  height: 200px;
+  border: 1px solid rgb(37, 199, 172);
+  font-size: 28px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-family: ralewayregular;
+  resize: none;
+}
+.right-box__checkbox {
+  float:left;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/form_ok.jpg");
+  border: 1px solid rgb(37, 199, 172);
+  background-repeat:no-repeat;
+  background-size: 90%;
+  background-position: 0 10px;
+}
+.right-box__text {
+  float: left;
+  width: 280px;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: lightgrey;
+}
+.right-box__button {
+  float: left;
+  margin-top: 25px;
+  width: 330px;
+  border-radius: 10px;
+  background-color: rgb(33, 186, 160);
+}
+.right-box__button p {
+  text-align: center;
+  font-size: 35px;
+  padding:15px 0;
+  color: white;
+  font-family: ralewaybold
+}
+::-webkit-input-placeholder {
+  color: lightgrey;
+}
+/* NOTE: MAIN FOOTER */
+
+.main-footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main-footer__copyright {
+  float: left;
+  font-size: 16px;
+  color: grey;
+}
+.main-footer__logo-container {
+  float: left;
+  margin-left: 375px;
+}
+.logo-container__brand {
+  float: left;
+  width: 35px;
+  height: 35px;
+  background-position: center;
+  background-size: cover;
+}
+.logo-container__brand--flicker {
+  background-image: url("../images/flickr.png");
+}
+.logo-container__brand--vimeo {
+  background-image: url("../images/vimeo.png");
+}
+.logo-container__brand--pinterest {
+  background-image: url("../images/pinterest.png");
+}
+.logo-container__brand--twitter {
+  background-image: url("../images/twitter.png");
+}
+.main-footer__name {
+  float: right;
+  font-size: 18px;
+}
+
 
 /* NOTE: CLEAR */
 
