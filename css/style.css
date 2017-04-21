@@ -185,6 +185,144 @@ span {
   color: gray;
 }
 
+/* NOTE: THIRD SECTION */
+
+.third-section {
+  background-color: rgb(240, 240, 240);
+}
+.third-section__header {
+  width: 100px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+.box__underline--nomargin {
+  margin-left: 0;
+  width: 340px;
+  margin-bottom: 70px;
+}
+.third-section__option-box {
+  float: left;
+  margin-right: 30px;
+  width: 346px;
+  height:  497px;
+  border: 2px solid lightgrey;
+  background-color: white;
+  position: relative;
+  margin-bottom: 50px;
+}
+.third-section__option-box:last-of-type {
+  margin-right: 0;
+}
+.option-box__circle {
+  position: absolute;
+  background-color: white;
+  border: 2px solid lightgrey;
+  left: 50%;
+  top: -35px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 56px;
+  z-index: 2;
+}
+.box-circle__insidebox {
+  position: absolute;
+  background-color: rgb(191,191,191);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.option-box__plan {
+  position: relative;
+  background-color: rgb(248,248,248);
+  padding-bottom: 3px;
+  z-index: 1;
+}
+.plan__header {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(33, 186, 160);
+}
+.plan__price-circle {
+  position: relative;
+  margin:30px auto;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+.price-circle__price-number {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  transform: translateX(-50%);
+  font-size: 44px;
+  font-family: ralewaybold;
+  color: rgb(191,191,191);
+}
+.price-circle__price-unit {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%);
+  color: rgb(191,191,191);
+}
+sup {
+  font-size: 16px;
+}
+.option-box__properties {
+  text-align: center;
+  height: 164px;
+}
+.option-box__properties p {
+  font-size: 25px;
+  color: rgb(144,144,144);
+  padding: 5px 0;
+  background-color: rgb(227,227,227);
+}
+.option-box__properties p:nth-of-type(2n+2) {
+  background-color: rgb(240,240,240);
+  border: 1px solid rgb(240,240,240);
+}
+.option-box__button {
+  margin: 0 auto;
+  width: 130px;
+  border-radius: 10px;
+  background-color: rgb(33, 186, 160);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+.option-box__button p {
+  font-size: 16px;
+  text-align: center;
+  padding:10px;
+}
+
+/* NOTE: ACTIVE SELECTION */
+
+.green-background {
+  background-color: rgb(37, 199, 172);
+  border-color: rgb(37, 199, 172);
+}
+.white-font {
+  color: white;
+}
+.green-font {
+  color: rgb(33, 186, 160);
+}
+.white-background  {
+  background-color: white;
+}
+.white-border {
+  border-color: white;
+}
+
 
 /* NOTE: CLEAR */
 
