@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold.woff2') format('woff2'),
+         url('../fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0px dotted red;
+}
+body {
+  font-size: 14px;
+  font-family: ralewayregular;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+span {
+  color: rgb(33, 186, 160);
+  font-family: ralewaybold;
+}
+
+/* NOTE: HEADER  */
+
+.main-header {
+  background-color: black;
+}
+.main-header__logo {
+  float: left;
+  width: 100px;
+}
+.main-header__logo p {
+  padding: 15px 0;
+  color: white;
+}
+
+/* NOTE: NAVBAR */
+
+.main-header__navbar {
+  float: right;
+}
+.main-header__navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+.main-header__navbar li {
+  float: left;
+}
+.main-header__navbar li p {
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* NOTE: CLEAR */
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
